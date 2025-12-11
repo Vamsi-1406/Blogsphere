@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.post-card {
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+.comment-section {
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tag-badge {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.like-button {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.like-button:hover {
+    color: #dc3545;
+}
+
+.like-button.liked {
+    color: #dc3545;
+}
+
+.search-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pagination {
+    margin-top: 2rem;
+} 
