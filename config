@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "github"]
+	url = https://github.com/Vijay31v/BlogSphere.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[branch "main"]
+	remote = github
+	merge = refs/heads/main
+[remote "origin"]
+	url = https://github.com/Vijay31v/BlogSphere.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
